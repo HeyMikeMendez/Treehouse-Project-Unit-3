@@ -97,6 +97,11 @@ header p {
     border-radius: 5px;
 }
 
+.inputs:focus,
+.zip-code-box:focus {
+   outline-color: red;
+}
+
 .contact-info select {
     width: 285px;
     height: 38px;
@@ -117,6 +122,11 @@ header p {
     padding-right: 15px;
     font-style: italic;
     font-size: 10px;
+}
+
+select {
+    color: #b8b6b6;
+    padding-left: 10px;
 }
 
 .zip-code-box {
@@ -203,8 +213,14 @@ footer p {
         padding-bottom: 10px;
     }
 
+    header h3 {
+        padding-top: 30px;
+    }
+
     header p {
         max-width: 500px;
+        font-size: 11px;
+        padding-bottom: 10px;
     }
 
     .border {
@@ -218,8 +234,17 @@ footer p {
         margin-top: 2px;
     }
 
+    .contact-title {
+        padding-bottom: 15px;
+        padding-top: 40px;
+    }
+
     .inputs {
         margin-left: 50px;
+    }
+
+    .input-container label {
+        padding-top: 9px;
     }
 
     .input-container-zip {
@@ -228,10 +253,15 @@ footer p {
 
     .input-container-zip {
         justify-content: space-between;
+        padding-bottom: 20px;
     }
 
     .zip-code-box {
         margin-right: 130px;
+    }
+
+    .newsletter-title {
+        padding-top: 30px;
     }
 
     .newsletter-info {
@@ -247,5 +277,6 @@ footer p {
     }
 
 
+   
 
 }
