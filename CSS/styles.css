@@ -244,6 +244,10 @@ footer p {
         padding-top: 9px;
     }
 
+    .contact-info select {
+        width: 280px;
+    }
+
     .input-container-zip {
         flex-direction: row;
     }
